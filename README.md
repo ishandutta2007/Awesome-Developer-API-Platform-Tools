@@ -79,7 +79,7 @@ The table below catalogs premier SaaS developer platforms, arranged in **descend
 
 ## 🐙 Open-Source GitHub Projects (Ranked by Stars)
 
-Below is an expanded roster of production-grade open-source developer platforms and API tooling suites. Every entry features a **live social star badge** linked directly to its repository stargazers page, ordered strictly by popularity and community adoption.
+Below is an expanded roster of production-grade open-source developer platforms and API tooling suites. Every entry features a **live social Stars_Badge** linked directly to its repository stargazers page, ordered strictly by popularity and community adoption.
 
 ---
 
