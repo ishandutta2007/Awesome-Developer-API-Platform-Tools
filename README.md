@@ -44,67 +44,22 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
+### Sector Overview & Market Dynamics
 
+The global Developer API Platform & API Management market is estimated at **$7.6B to $10.3B** and projected to exceed **$30B+ by 2032–2034**, expanding at a robust CAGR of **16%–22%**. The sector exhibits a **bifurcated market structure**: it is **moderately concentrated at the infrastructure layer**—dominated by cloud hyperscalers (Microsoft, Google Cloud, AWS) that capture high aggregate market share—while remaining **highly fragmented across specialized verticals** (developer tooling, low-code builders, payments, search, and communication APIs) where best-of-breed platforms and emerging open-source contenders challenge incumbent monopolies.
 
-- **Postman**
-
-  **API development and testing platform** with collections, environments, and mock servers. **Pricing**: Free tier available; paid plans per user. **Free tier**: Yes, limited collection runs and mock calls. **Best for**: teams wanting a polished, collaborative API client with cloud sync—**trade-off**: data stored in vendor cloud; pricing scales with users.
-
-
-
-- **Supabase**
-
-  **Open-source Firebase alternative** (hosted). **Pricing**: Free tier; Pro from $25/month. **Free tier**: Yes, generous. **Best for**: developers wanting Postgres-based backend with auth, storage, and realtime—**trade-off**: hosted version has usage limits; self-hosted is available for free.
-
-
-
-- **Firebase**
-
-  **Google's backend-as-a-service** with Firestore, Auth, and Hosting. **Pricing**: Spark (free) and Blaze (pay-as-you-go). **Free tier**: Yes, limited reads/writes. **Best for**: mobile and web apps wanting Google ecosystem integration—**trade-off**: NoSQL-only; vendor lock-in concerns.
-
-
-
-- **Algolia**
-
-  **Hosted search API** with instant search and typo tolerance. **Pricing**: Build (free) and Grow plans; usage-based pricing. **Free tier**: Yes, limited records and searches. **Best for**: teams wanting turnkey search without infrastructure—**trade-off**: costs scale sharply with search volume .
-
-
-
-- **Retool**
-
-  **Low-code internal tool builder** with AI credits. **Pricing**: Free up to 5 users; paid from $10/builder/month. **Free tier**: Yes, 5 users. **Best for**: teams building admin panels and dashboards—**trade-off**: per-builder and per-user pricing stacks .
-
-
-
-- **AWS Amplify**
-
-  **Full-stack development platform** for AWS. **Pricing**: Pay-as-you-go. **Free tier**: Limited. **Best for**: AWS-centric teams wanting integrated frontend and backend.
-
-
-
-- **GitHub**
-
-  **Code hosting and DevOps platform** with Actions, Packages, and Projects. **Pricing**: Free for public repos; paid per user. **Free tier**: Yes, generous. **Best for**: teams wanting integrated source control and CI/CD.
-
-
-
-- **Stripe**
-
-  **Payment infrastructure API** with billing and subscriptions. **Pricing**: Per-transaction fees. **Free tier**: None for payments. **Best for**: developers wanting the most mature payment APIs.
-
-
-
-- **Twilio**
-
-  **Communication APIs** for SMS, voice, and WhatsApp. **Pricing**: Usage-based. **Free tier**: Trial credits. **Best for**: teams adding messaging and voice to applications.
-
-
-
-- **HubSpot Developer Platform**
-
-  **CRM development platform** with APIs and app marketplace. **Pricing**: Free developer tier; paid for production apps. **Free tier**: Yes, sandbox. **Best for**: developers building on HubSpot CRM.
-
-
+| Product | Company Size (Valuation / Revenue) | Category / Focus | Starting Pricing | Free Tier / Free Trial Limits | Best For / Key Trade-off |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **GitHub** | **~$3.88T Market Cap** (Parent: Microsoft) / **~$2B ARR** | Code Hosting & DevOps | **$4 / user / month** (Team plan) | **Free forever plan**: Unlimited public/private repositories, **2,000 CI/CD Actions minutes/month** (private repos), **500 MB** package storage. | **Best for:** Integrated source control & CI/CD.<br>**Trade-off:** Advanced governance locked behind Enterprise ($21/user/mo). |
+| **Firebase** | **~$3.42T Market Cap** (Parent: Alphabet/Google) | Backend-as-a-Service | **Pay-as-you-go** ($0 base fee on Blaze plan; Firestore reads ~$0.03 / 100k) | **Free forever plan (Spark)**: **50,000 document reads/day**, **20,000 document writes/day**, **1 GB** stored data, **50,000 Auth MAUs**, **10 GB hosting storage**, 360 MB hosting transfer/day. | **Best for:** Rapid mobile & web app development.<br>**Trade-off:** NoSQL focus; proprietary API lock-in. |
+| **AWS Amplify** | **~$2.60T Market Cap** (Parent: Amazon/AWS) | Full-Stack App Platform | **Pay-as-you-go** ($0.01 / build minute, $0.023 / GB storage, $0.15 / GB data served) | **Free forever plan**: **1,000 build minutes/month**, **5 GB hosting storage/month**, **15 GB data served/month**, 100 GB-hours/month SSR duration. | **Best for:** AWS-centric frontend & backend workflows.<br>**Trade-off:** Steep learning curve when configuring underlying AWS IAM & services. |
+| **Stripe** | **$159B Valuation** / **~$6.8B Revenue** | Payment Infrastructure | **2.9% + $0.30** per successful card transaction | **Free forever developer sandbox**: **Free test mode (no time limit)** with full API simulation; live processing has **$0 / month base subscription** (pay only per successful transaction, min $0.50 charge). | **Best for:** Mature, production-grade payment workflows.<br>**Trade-off:** High transaction margins on international & converted currencies. |
+| **Twilio** | **~$35B Market Cap** / **~$5.07B Revenue** | Communication APIs | **$0.0083 / SMS message** segment (US) + $1.15/month phone number rental | **30-day Free Trial**: **100 SMS messages**, **100 WhatsApp messages**, **75 voice minutes**, **3,000 SendGrid emails**, and up to 3 trial phone numbers (restricted to verified numbers). | **Best for:** Global multi-channel telecom & messaging.<br>**Trade-off:** Carrier pass-through surcharges and A2P compliance overhead scale costs quickly. |
+| **HubSpot Developer Platform** | **~$30B Market Cap** / **~$3.13B Revenue** | CRM & App Marketplace | **$20 / seat / month** (Starter Customer Platform; $15/seat/mo billed annually) | **Free forever developer account**: **Up to 10 developer test accounts** (with 90-day renewable access to Enterprise CRM features, 25 website pages, 100,000 workflow enrollments/day, and 250,000 API requests/day ceiling). | **Best for:** B2B integration builders and SaaS ecosystems.<br>**Trade-off:** Steep tier jumps into Professional & Enterprise pricing. |
+| **Supabase** | **$10.5B Valuation** / **~$170M ARR** | Backend-as-a-Service | **$25 / organization / month** (Pro plan base, includes $10 compute credit) | **Free forever plan**: **2 active projects** (pauses after 7 days inactivity), **500 MB database space**, **1 GB file storage**, **50,000 MAUs**, **500,000 edge function invocations**, **2M realtime messages**, 5 GB data egress. | **Best for:** Postgres-native backend with auth & storage.<br>**Trade-off:** Strict database storage ceilings on free tier; compute add-ons require Pro plan. |
+| **Postman** | **$5.6B Valuation** / **~$313M ARR** | API Client & Platform | **$19 / user / month** (Team plan billed annually; $14/user/mo Basic) | **Free forever plan**: **1 user** solo workspace, **10,000 Postman API calls/month**, **5 integrations**, unlimited manual collection runs & mock server requests. | **Best for:** Collaborative API design, testing & docs.<br>**Trade-off:** Free plan strictly limits team sharing; requires paid upgrade for multi-seat collaboration. |
+| **Retool** | **$3.2B Valuation** / **~$130M ARR** | Internal Tool Builder | **$10 / builder / month** + $5 / internal user / month (Team plan billed annually) | **Free forever plan**: **Up to 5 total users** (builders + internal users), **unlimited apps**, **500 workflow runs/month**, **5 GB Retool Database storage**, 20 hours/month Retool Agents. | **Best for:** Rapid internal dashboards and operational tools.<br>**Trade-off:** Pricing scales per-builder and per-end-user; staging environments locked to paid plans. |
+| **Algolia** | **$2.3B Valuation** / **~$100M ARR** | Search & Discovery API | **Pay-as-you-go** ($0 base monthly fee on Grow plan; overages at $0.50 / 1k searches, $0.40 / 1k records) | **Free forever plan (Grow)**: **10,000 search requests/month** and **100,000 records** stored across indices. | **Best for:** Instant typo-tolerant search-as-you-type.<br>**Trade-off:** Costs scale sharply with search query traffic spikes. |
 
 ## Open-Source GitHub Projects
 
